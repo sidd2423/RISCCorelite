@@ -9,3 +9,5 @@ Stores results back into either the memory or the accumulator.
 
 RTL Design : 
 ![image](https://github.com/user-attachments/assets/5b66d00c-ffd0-4c5e-8f9d-ebe02c39ad4e)
+
+Link to the complete design : https://pdf.ac/2gfmxz
