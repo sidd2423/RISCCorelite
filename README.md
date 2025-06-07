@@ -1,10 +1,14 @@
 # RISCCorelite
 Designed and Verified a RISC CPU: 
 
-Fetches an instruction from memory
+Fetches an instruction from memory.
+
 Decodes an instruction
+
 Fetch a data operand from the memory if required by the instruction
+
 Executes the instruction , processing mathematical operations, if required.
+
 Stores results back into either the memory or the accumulator.
 
 RTL Design : 
