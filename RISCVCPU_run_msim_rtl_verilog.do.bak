@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/typedefs.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/scale_mux.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/register.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/mem.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/counter.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/alu.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/control.sv}
+vlog -sv -work work +incdir+C:/Users/Owner/AppData/Local/quartus {C:/Users/Owner/AppData/Local/quartus/RISCVCPU.sv}
+
